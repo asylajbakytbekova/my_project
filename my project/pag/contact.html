@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<title>Байланыс - World Guide</title>
+<link rel="stylesheet" href="/proj/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">World Guide</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Басты бет</a></li>
+      <li><a href="about.html">Біз туралы</a></li>
+      <li><a href="cities.html">Қалалар</a></li>
+      <li><a href="contact.html" class="active">Байланыс</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="contact">
+  <h2>Бізбен байланысыңыз</h2>
+  
+  <div class="contact-container">
+    <!-- Контакті ақпарат -->
+    <div class="contact-info">
+      <h3>Байланыс ақпараты</h3>
+      
+      <div class="info-item">
+        <div class="info-icon">📞</div>
+        <div class="info-content">
+          <h4>Телефон</h4>
+          <p>+7 777 777 77 77</p>
+          <p>+7 707 123 45 67</p>
+        </div>
+      </div>
+      
+      <div class="info-item">
+        <div class="info-icon">✉️</div>
+        <div class="info-content">
+          <h4>Электронды пошта</h4>
+          <p>worldguide@mail.kz</p>
+          <p>support@worldguide.kz</p>
+        </div>
+      </div>
+      
+      <div class="info-item">
+        <div class="info-icon">📍</div>
+        <div class="info-content">
+          <h4>Мекенжай</h4>
+          <p>Алматы қ., Республика көшесі, 12</p>
+          <p>Жұмыс уақыты: 09:00 - 18:00</p>
+        </div>
+      </div>
+      
+      <!-- АДРЕС СУРЕТІ -->
+      <div class="map-container">
+        <h4>Біздің орналасқан жеріміз</h4>
+        <img src="/img/╨░╨┤╤А╨╡╤Б.png" alt="Адрес картасы" class="contact-img">
+      </div>
+    </div>
+    
+    <!-- Байланыс формасы -->
+    <div class="contact-form">
+      <h3>Хабарлама қалдырыңыз</h3>
+      <p class="form-subtitle">Біз сізбен жақын арада байланысамыз</p>
+      
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Аты-жөніңіз *</label>
+          <input type="text" id="name" name="name" required placeholder="Сіздің атыңыз">
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="age">Жасыңыз</label>
+            <input type="number" id="age" name="age" min="1" max="120" placeholder="Жасыңыз">
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Телефон нөмірі *</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+7 (777) 777-77-77">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Электронды пошта</label>
+          <input type="email" id="email" name="email" placeholder="email@мысал.kz">
+        </div>
+        
+        <div class="form-group">
+          <label for="country">Қызығушылық тудырған ел</label>
+          <select id="country" name="country">
+            <option value="">Елді таңдаңыз</option>
+            <option value="brazil">Бразилия</option>
+            <option value="japan">Жапония</option>
+            <option value="usa">АҚШ</option>
+            <option value="india">Үндістан</option>
+            <option value="germany">Германия</option>
+            <option value="other">Басқа</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Хабарламаңыз *</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Сұрағыңызды немесе пікіріңізді жазыңыз..."></textarea>
+        </div>
+        
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="agreement" name="agreement" required>
+          <label for="agreement">Мен <a href="#">құпиялылық саясатын</a> оқып шығып, келісемін</label>
+        </div>
+        
+        <button type="submit" class="submit-btn">Хабарлама жіберу</button>
+        
+        <div class="form-note">
+          <p>* белгіленген өрістер міндетті түрде толтырылуы тиіс</p>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Социальные сети -->
+  <div class="social-section">
+    <h3>Әлеуметтік желілерде бізді табыңыз</h3>
+    <div class="social-links">
+      <a href="#" class="social-link">
+        <span class="social-icon">📘</span>
+        <span>Facebook</span>
+      </a>
+      <a href="#" class="social-link">
+        <span class="social-icon">📷</span>
+        <span>Instagram</span>
+      </a>
+      <a href="#" class="social-link">
+        <span class="social-icon">✈️</span>
+        <span>Telegram</span>
+      </a>
+      <a href="#" class="social-link">
+        <span class="social-icon">📺</span>
+        <span>YouTube</span>
+      </a>
+      <a href="#" class="social-link">
+        <span class="social-icon">💼</span>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+      <div class="logo">World Guide</div>
+      <p>Әлемді бірге зерттейік</p>
+    </div>
+    
+    <div class="footer-links">
+      <h4>Беттер</h4>
+      <ul>
+        <li><a href="/index.html">Басты бет</a></li>
+        <li><a href="/pag/about.html">Біз туралы</a></li>
+        <li><a href="/pag/cities.html">Қалалар</a></li>
+        <li><a href="/pag/contact.html">Байланыс</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-contact">
+      <h4>Байланыс</h4>
+      <p>📍 Алматы қ., Республика көшесі, 12</p>
+      <p>📞 +7 (777) 777-77-77</p>
+      <p>✉️ worldguide@mail.kz</p>
+    </div>
+    
+    <div class="footer-social">
+      <h4>Жаңалықтарға жазылыңыз</h4>
+      <div class="newsletter">
+        <input type="email" placeholder="Электронды поштаңыз">
+        <button type="submit">Жазылу</button>
+      </div>
+      <p class="newsletter-note">Соңғы жаңалықтар мен жеңілдіктер туралы хабардар болыңыз</p>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p>© 2025 World Guide. Барлық құқықтар қорғалған.</p>
+  </div>
+</footer>
+
+<script src="/proj/script.js"></script>
+</body>
+</html>
